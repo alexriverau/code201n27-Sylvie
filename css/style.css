@@ -42,11 +42,13 @@ h2 {
     font-weight: bold;
     margin-top: 10px;
     margin-bottom: 5px;
+    text-align: center;
 }
 
 footer {
     text-align: center;
     font-size: smaller;
+    border: 20px;
 }
 
 ol {
@@ -55,4 +57,32 @@ ol {
 
 body {
     background-color: rosybrown;
+}
+
+img {
+    float: left;
+}
+
+p   {
+    text-align: center;
+}
+
+ol {
+    text-align: right;
+}
+
+li {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    text-align: center;
 }
