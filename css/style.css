@@ -56,11 +56,7 @@ ol {
 }
 
 body {
-    background-color: rosybrown;
-}
-
-img {
-    float: left;
+    background-color: rgb(177, 122, 122);
 }
 
 p   {
@@ -69,6 +65,10 @@ p   {
 
 ol {
     text-align: right;
+}
+
+ul {
+    text-align: center;
 }
 
 li {
@@ -83,6 +83,3 @@ h2 {
     text-align: center;
 }
 
-ul {
-    text-align: center;
-}
