@@ -2,13 +2,13 @@
 
 //console.log(answer1);
 
-if (true) {
-  console.log('In a condition that executes always.');
-}
+// if (true) {
+//   console.log('In a condition that executes always.');
+// }
 
-if (false) {
-  console.log('In a condition that executes never!');
-}
+// if (false) {
+//   console.log('In a condition that executes never!');
+// }
 
 if (Math.random() > 0.5) {
   console.log('This condition maybe runs!');
@@ -16,15 +16,14 @@ if (Math.random() > 0.5) {
 
 let answer1 = prompt('How is your day going').toLowerCase();
 
-
-if (answer1 == 'good') {
-alert('i am glad to hear that');
-} else if (answer1 == 'bad') {
-alert('i am sorry to hear that');
-} else if (answer1 == 'just ok') {
-alert('ok is better then bad');
+if (answer1 === 'good') {
+  alert('i am glad to hear that');
+} else if (answer1 === 'bad') {
+  alert('i am sorry to hear that');
+} else if (answer1 === 'just ok') {
+  alert('ok is better then bad');
 } else {
-alert('absolutely delightful');
+  alert('absolutely delightful');
 }
 
 // switch (answer1) {
